@@ -1,0 +1,106 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1c0efcbb-1dfd-4979-a2c5-5579bf14ea7a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>gjango1.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>gjango1</Name>
+    <RootNamespace>gjango1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BLOG\asgi.py" />
+    <Compile Include="BLOG\settings.py" />
+    <Compile Include="BLOG\urls.py" />
+    <Compile Include="BLOG\wsgi.py" />
+    <Compile Include="BLOG\__init__.py" />
+    <Compile Include="gjango1.py" />
+    <Compile Include="MAIN\admin.py" />
+    <Compile Include="MAIN\apps.py" />
+    <Compile Include="MAIN\migrations\0001_initial.py" />
+    <Compile Include="MAIN\migrations\__init__.py" />
+    <Compile Include="MAIN\models.py" />
+    <Compile Include="MAIN\tests.py" />
+    <Compile Include="MAIN\urls.py" />
+    <Compile Include="MAIN\views.py" />
+    <Compile Include="MAIN\__init__.py" />
+    <Compile Include="USER\admin.py" />
+    <Compile Include="USER\apps.py" />
+    <Compile Include="USER\forms.py" />
+    <Compile Include="USER\migrations\0001_initial.py" />
+    <Compile Include="USER\migrations\__init__.py" />
+    <Compile Include="USER\models.py" />
+    <Compile Include="USER\tests.py" />
+    <Compile Include="USER\views.py" />
+    <Compile Include="USER\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLOG\" />
+    <Folder Include="BLOG\__pycache__\" />
+    <Folder Include="MAIN\" />
+    <Folder Include="MAIN\migrations\" />
+    <Folder Include="MAIN\migrations\__pycache__\" />
+    <Folder Include="MAIN\templates\" />
+    <Folder Include="MAIN\templates\main\" />
+    <Folder Include="MAIN\__pycache__\" />
+    <Folder Include="USER\" />
+    <Folder Include="PROFILE\" />
+    <Folder Include="USER\migrations\" />
+    <Folder Include="USER\migrations\__pycache__\" />
+    <Folder Include="USER\templates\" />
+    <Folder Include="USER\templates\users\" />
+    <Folder Include="USER\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BLOG\__pycache__\settings.cpython-311.pyc" />
+    <Content Include="BLOG\__pycache__\urls.cpython-311.pyc" />
+    <Content Include="BLOG\__pycache__\wsgi.cpython-311.pyc" />
+    <Content Include="BLOG\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="MAIN\migrations\__pycache__\0001_initial.cpython-311.pyc" />
+    <Content Include="MAIN\migrations\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="MAIN\templates\main\base-layout.html" />
+    <Content Include="MAIN\templates\main\blog.html" />
+    <Content Include="MAIN\templates\main\contacts.html" />
+    <Content Include="MAIN\templates\main\index.html" />
+    <Content Include="MAIN\__pycache__\admin.cpython-311.pyc" />
+    <Content Include="MAIN\__pycache__\apps.cpython-311.pyc" />
+    <Content Include="MAIN\__pycache__\models.cpython-311.pyc" />
+    <Content Include="MAIN\__pycache__\urls.cpython-311.pyc" />
+    <Content Include="MAIN\__pycache__\views.cpython-311.pyc" />
+    <Content Include="MAIN\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="PROFILE\N4rypMVt808.jpg" />
+    <Content Include="USER\migrations\__pycache__\0001_initial.cpython-311.pyc" />
+    <Content Include="USER\migrations\__pycache__\__init__.cpython-311.pyc" />
+    <Content Include="USER\templates\users\login.html" />
+    <Content Include="USER\templates\users\logout.html" />
+    <Content Include="USER\templates\users\profile.html" />
+    <Content Include="USER\templates\users\register.html" />
+    <Content Include="USER\__pycache__\admin.cpython-311.pyc" />
+    <Content Include="USER\__pycache__\apps.cpython-311.pyc" />
+    <Content Include="USER\__pycache__\forms.cpython-311.pyc" />
+    <Content Include="USER\__pycache__\models.cpython-311.pyc" />
+    <Content Include="USER\__pycache__\views.cpython-311.pyc" />
+    <Content Include="USER\__pycache__\__init__.cpython-311.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
